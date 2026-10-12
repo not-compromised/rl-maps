@@ -1,0 +1,11 @@
+# The Haunted Hold style contract
+
+Approved direction: a compact haunted ship cargo hold for aerial control practice. One cohesive interior with timber ribs, a central mast, worn plank decks, iron fastenings, suspended cargo and warm lanterns against muted teal-green ghost light. Braided rope rings follow the circular curvature seamlessly. Aim for clear material detail and believable construction within a small arena.
+
+The hold encloses a U-shaped route. Three gates lead away from the launch deck to a checkpoint; three turn back along the other side, including a climb and controlled descent. Opening radii are exactly620/470/340 world units. A thin bright green rim identifies only the current gate; other rope gates remain visible. Completed/next sections are readable without labels covering the flight aperture. The camera guide points to the current objective and has no collision.
+
+Useful geometry comes first: unobstructed takeoff and landings, recovery room near rope rims, local failure boundaries and a solid hull. Keep cargo below or outside flight paths. Exposed roof beams and a hatch with moonlit haze make the interior recognizably a ship; no ocean-wide scenery. Light fog may add depth but must not hide the next gate. Use warm lantern accents and green for navigation, violet for camera-off and gold for restart. Avoid a mass of glowing decorations competing with the active gate.
+
+HUD: six-pass progress, section, time and deaths; concise start instructions; obvious camera on/off pads and finish/restart states. The trainer must work with the player's existing camera/controller settings. Final review includes car-height views, both checkpoint approaches, rope silhouettes, gate highlighting and controlled traversal. The owner supplies ordinary-flight feedback; see docs/workflow.md for the testing boundary.
+
+Difficulty direction (owner, 2026-09-11): use agent judgment for ring placement and initial difficulty. Mix easier and harder stages, steady sections and localized hard passages. Vary spacing, turns, elevation and opening size; retain one readable route and recovery room. For this six-gate trainer, outbound is a forgiving entry followed by two steady medium gates; return combines a climb and turn with a smaller final gate on descent. These are design intentions until player feedback establishes how they feel.

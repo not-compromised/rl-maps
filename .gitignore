@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+output/
+evidence/
+reference/
+dist/
+assets/textures
+*.udk
+*.upk
+*.log
+*.lock
+.env*
+# the separate map-workshop toolkit is linked into a map folder, never committed
+tools

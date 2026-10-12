@@ -1,0 +1,21 @@
+{
+  "title": "Story of Toys",
+  "revision": 99,
+  "status": "playable work in progress",
+  "author": "not-compromised",
+  "archive": {
+    "file": "story-of-toys-r99.zip",
+    "bytes": 124565531,
+    "sha256": "125b7dc81483104986a32659406f355a8252daa17c801fed2b3ab63187994e9e"
+  },
+  "package": {
+    "file": "Story of Toys/AndysRoomRings03_antifreeze.upk",
+    "bytes": 689561614,
+    "sha256": "01662749ad05083631fb2ac37850bbad66c10c042d5d88f327ecd6203a4af34c"
+  },
+  "source_blend_sha256": "95c36caaec454ef6e0dc5facd8c5608d80709a0430e50ccd689db2119f50871a",
+  "validation": "VALIDATION.md",
+  "credits": "CREDITS.md",
+  "preview": "Actual revision 99 game capture of the hat driving area",
+  "source": "https://github.com/not-compromised/rl-maps/tree/main/story-of-toys"
+}
