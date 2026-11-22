@@ -17,7 +17,7 @@ def metrics(c):
  return rows
 ref=ROOT.parent/'rl-maps/reference/ice-rings'
 rings=json.loads((ref/'ring-transforms.json').read_text());lookup={r['actor']:r for r in rings}
-installed=next((Path.home()/'Games/Heroic/Prefixes/default/drive_c/RLTrainingMaps/Ice Rings').glob('*.upk'))
+installed=next((Path.home()/'Games/Epic/offline/pfx/drive_c/RLTrainingMaps/Ice Rings').glob('*.upk'))
 sha=hashlib.sha256(installed.read_bytes()).hexdigest();assert sha==json.loads((ref/'inspection.json').read_text())['sha256']
 names=['StaticMeshActor_0','StaticMeshActor_749','StaticMeshActor_750','StaticMeshActor_752','StaticMeshActor_753','StaticMeshActor_754','StaticMeshActor_385'];sample=[]
 for name in names:
